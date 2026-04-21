@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+                    <label for="nome">Nome Completo: </label>
+                    <input type="text" id="name" name="name" required><br>
+
+                    <label for="">E-mail: </label>
+                    <input type="email" name="email" id="email" required><br>
+
+                    <label for="">Idade: </label>
+                    <input type="number" name="age" id="age" required><br>
+
+                    <label for="materia" required>Para qual matéria você está se candidatando para lecionar: </label>
+                    <select name="materia" id="materia">
+                        <option value="matemática">Matemática</option>
+                        <option value="portugues">Portugês</option>
+                        <option value="biologia">Biologia</option>
+                        <option value="ciencias">Ciências</option>
+                        <option value="historia">História</option>
+                        <option value="geografia">Geografia</option>
+                        <option value="artes">Artes</option>
+                    </select><br>
+
+                    <label for="nivel">Nível de escolaridade:</label>
+                    <select name="nivel" id="nivel">
+                        <option value="ensinosup">Ensino superior completo</option>
+                        <option value="ensinomes">Cursando mestrado</option>
+                        <option value="mestcomp">Mestrado completo</option>
+                        <option value="ensinodout">Cursando doutorado</option>
+                        <option value="doutcomp">Doutorado completo</option>
+                    </select><br>
+
+                    <label for="descript">Descrição sobre si: </label>
+                    <textarea name="descript" id="mensagem" cols="20" raws="5"></textarea><br>
+
+                    <button type="submit" value="check">Enviar</button>
+                </form>
+</body>
+</html>
