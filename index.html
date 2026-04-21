@@ -63,6 +63,31 @@
             <address>
                 E-mail: <a href="mailto:Jhonatanwestphal@gmail.com">Jhonatanwestphal@gmail.com</a> <br>
                 telefone: <a href="tel:(48)99655-6907">(48)99655-6907</a>
+                <form action="">
+                    <label for="nome">Nome: </label>
+                    <input type="text" id="nome" name="nome" required><br>
+
+                    <label for="">E-mail: </label>
+                    <input type="email" name="email" id="email"required><br>
+
+                    <label for="">Telefone: </label>
+                    <input type="tel" name="telefone" id="telefone"required><br>
+
+                    <label for="assunto" required>Assunto: </label>
+                    <select name="assunto" id="assunto">
+                        <option value="orcamento">Orçamento</option>
+                        <option value="duvida">Dúvida</option>
+                        <option value="outro">Outro</option>
+                    </select>
+
+                    <label for="mensagem">Mensagem: </label>
+                    <textarea name="mensagem" id="mensagem" cols="20" raws="5"></textarea><br>
+
+                    <input type="checkbox" name="inscricao" id="inscricao">
+                    <label for="inscricao">Deseja receber minha newsletter? Fique por dentro</label><br>
+
+                    <button type="submit" value="Enviar mensagem">Enviar mensagem</button>
+                </form>
             </address>
         </section>
     </footer>
