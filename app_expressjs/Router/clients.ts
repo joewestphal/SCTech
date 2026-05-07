@@ -1,21 +1,17 @@
 import { Router } from "express"
+import clientsController from "../Controller/clientsController.js";
 
 const router = Router();
 
-router.get('/', (req,res) => {
-    res.send("<h1>Rota Inicial</h1>")
-}) 
+router.get('/', clientsController.index) 
 
-router.get('/sobrenos',(req,res) => {
-    res.send("Rota falando sbre a empresa")
-})
 
-router.get('/trabalheconosco',(req,res) => {
-    res.send("Opções de carreira")
-})
+router.get('/clients/create', clientsController.create)
+router.post('/clients/create', clientsController.store)
 
-router.get('/contato',(req,res) => {
-    res.send("(48) 99999-9999")
-})
+router.get('/clients/edit/:id', clientsController.edit)
+router.post('/clients/edit/:id', clientsController.update)
+router.get('/clients/del/:id', clientsController.del)
+router.get('/clients/:id', clientsController.show)
 
 export default router;
