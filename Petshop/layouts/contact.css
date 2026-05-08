@@ -1,0 +1,91 @@
+:root{
+    --verde-300: #566700;
+    --rosa-100: #FF94DB;
+    --verde-100: #B6DB00;
+    --azul-100: #E5F0FE;
+    --azul-300: #4B75FF;
+    --branco: #FFF;
+    --preto: #505050;
+}
+
+.secao-contato {
+    background-color: var(--verde-100);
+    padding: 50px 20px;
+    color: var(--branco);
+    text-align: center;
+}
+
+.secao-contato h1 {
+    margin-bottom: 40px;
+    font-size: 2rem;
+}
+
+.container-contato {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    text-align: left;
+}
+
+.formulario-contato {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formulario-contato input, 
+.formulario-contato textarea {
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+}
+
+.formulario-contato textarea {
+    height: 100px;
+    resize: none;
+}
+
+.btn-enviar {
+    background-color: var(--verde-300);
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 150px;
+}
+
+.info-contato {
+    flex: 0.8;
+}
+
+.item-info {
+    margin-bottom: 20px;
+}
+
+.item-info h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.item-info p {
+    font-size: 0.95rem;
+    opacity: 0.9;
+}
+
+.mapa-contato {
+    flex: 1;
+}
+
+.redes-sociais {
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    font-size: 1.5rem;
+}

@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Poppins", sans-serif;   
+    
+}
+
+:root{
+    --verde-300: #566700;
+    --rosa-100: #FF94DB;
+    --verde-100: #B6DB00;
+    --azul-100: #E5F0FE;
+    --azul-300: #4B75FF;
+    --branco: #FFF;
+    --preto: #505050;
+}
+
+    body{
+    background-color: var(--azul-100);
+    color: var(--preto);
+    }

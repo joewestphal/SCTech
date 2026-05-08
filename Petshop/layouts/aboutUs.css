@@ -1,0 +1,66 @@
+:root{
+    --verde-300: #566700;
+    --rosa-100: #FF94DB;
+    --verde-100: #B6DB00;
+    --azul-100: #E5F0FE;
+    --azul-300: #4B75FF;
+    --branco: #FFF;
+    --preto: #505050;
+}
+
+.container-sobre {    
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    color: #333;
+}
+.header-sobre {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.header-sobre h2 {
+    font-size: 1.2rem;
+    color: var(--preto #505050);
+    margin-bottom: 5px;
+}
+
+.header-sobre h1 {
+    font-size: 2.5rem;
+    margin-top: 0;
+}
+
+.conteudo-sobre {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.coluna-esquerda {
+    flex: 1;
+}
+
+.foto-principal {
+    width: 100%;
+    border-radius: 15px; 
+    display: block;
+}
+
+.coluna-direita {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.texto-historia p {
+    line-height: 1.6;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.foto-loja {
+    width: 100%;
+    max-width: 400px; 
+    border-radius: 15px;
+    align-self: flex-start;
+}
